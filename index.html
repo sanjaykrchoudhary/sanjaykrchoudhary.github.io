@@ -154,16 +154,12 @@ body {
 <div class="footer">
   <h2>Footer</h2>
 </div>
-  <!-- Start of ChatBot (www.chatbot.com) code -->
-<script type="text/javascript">
-    window.__be = window.__be || {};
-    window.__be.id = "5f38c63cdec99d0007ce59f9";
-    (function() {
-        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
-        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
-    })();
-</script>
-<!-- End of ChatBot code --> 
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Sanjay"
+  agent-id="9c2f49fa-2d95-4ebc-8408-5256a61ee5b7"
+  language-code="en"
+></df-messenger>
 </body>
 </html>
